@@ -1,0 +1,113 @@
+.services-cls{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.services-container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.services-heading{
+    text-align: center;
+    font-size: 45px;
+}
+.s-card-img{
+    width: 550px;
+    height: 350px;
+    margin: 2%;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.services-card{
+    display: flex;
+}
+
+/* .services-card:hover{
+    .s-card-img{
+        width: 560px;
+        height: 360px;
+    }
+    .s-card-disc{
+        width: 910px;
+    }
+}  */
+
+.s-card-disc{
+    margin-left: 5%; 
+    width: 1000px;
+    text-align: start;   
+}
+
+.s-heading{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.s-subheading{
+    text-align: start;
+    margin-top: 5%;
+}
+
+.s-btn{
+    width: 130px;
+    height: 35px;
+    border-radius: 0%;
+    background-color: rgb(78, 78, 199);
+    color: black;
+}
+
+@media only screen and (max-width:400px) {
+    /* .nav-cls {
+        width: 209%;
+    } */
+    .services-cls{
+        width: 29%;
+    }
+    .services-card {
+        display: inline-block;
+        width: 100%;
+    }
+    .s-card-img {
+        width: 330px;
+        height: 260px;
+        margin: 20%;
+        border: 1px solid white;
+        border-radius: 30px;
+        
+    }
+    .s-heading{
+        font-size: x-large;
+    }
+    .s-subheading{
+        text-align: justify;
+        margin-top: 4%;
+        font-size: unset;
+        padding: 2%;
+    }
+    .s-card-disc {
+        margin: 13%;
+        width: 310%;
+        text-align: center;
+    }
+    .services-heading {
+        text-align: center;
+        font-size: 32px;
+        margin-inline-start: 106%;
+    }
+    .services-container {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .s-btn{
+        width: 100px;
+        height: 25px;
+        font-size: smaller;
+    }
+}

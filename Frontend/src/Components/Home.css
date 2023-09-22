@@ -1,0 +1,169 @@
+.home-cls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+    position: relative;
+   
+}
+
+.hh{
+    position: absolute;
+    background: none;
+    margin-right: 60%;
+
+}   
+
+.home-heading{
+    color: white;
+    font-size: 60px;
+     padding-top: 10%; 
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+}
+
+.home-subheading{
+    color: white;
+    background:none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-top: 5%; 
+}
+ .home-subheading1{
+     padding-top: 7%; 
+} 
+
+.home-img{
+    width:100%;
+    height: 630px;
+    border-radius: 35px;
+}
+
+.hh1{
+    text-align: center;
+    /* background-color: black; */
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 420px;
+    height: 520px;
+    border: 1px solid white;
+     background-color: black; 
+    color: rgb(174, 170, 170);
+    filter: brightness(55%);
+    border-radius: 15px;
+    padding: 25px;
+     margin: 18px; 
+    box-shadow: inset;
+}
+
+.card:hover{
+    color: white;
+    filter: brightness(100%);
+    
+}
+
+.card1:hover , .card4:hover{
+    box-shadow: 5px 5px 10px 1px rgb(47, 35, 222);
+}
+
+.card5:hover , .card2:hover{
+    box-shadow: 5px 5px 10px 1px rgb(177, 14, 128);
+}
+
+.card3:hover , .card6:hover{
+    box-shadow: 5px 5px 10px 1px rgb(197, 81, 9);
+}
+
+.card-img{
+    width: 360px;
+    height: 335px;
+    margin: 0;
+}
+
+/* .card-img:hover{
+    width: 380px;
+    height: 355px;
+    margin-right: 5%;
+} */
+
+button{
+
+    width: 90px;
+    height: 25px;
+     margin-left: 38%;
+    margin-top: 5%; 
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    border-radius: 0%;
+    background-color: rgb(49, 49, 134);
+    border-radius: 0%;
+}
+
+@media only screen and (max-width:400px) {
+    .home-cls {
+        width: 80%;
+        display: block;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .home-heading {
+        color: white;
+        font-size: 40px;
+        text-align: initial;
+        padding-top: 10%;
+        margin-left: 7%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .home-subheading{
+        font-size:smaller;
+        text-align: initial;
+        margin-left: 7%;
+    }
+    .home-img {
+        margin: 3%;
+        width: 350px;
+        height: 300px;
+    }
+    .home{
+        width: 100%;
+        display: block;
+        padding-left: 0%;
+    }
+    h1{
+        font-size: x-large;
+        text-align: center;
+    }
+    h3{
+        font-size: small;
+    }
+    button{
+        width: 70px;
+        height: 17px;
+        font-size: small;
+    }
+    .card {
+        width: 335px;
+        height: 370px;
+        padding: 18px;
+        margin: 2%;
+        filter: brightness(100%);
+    }
+    .card-img {
+        width: 290px;
+        height: 244px;
+    }
+}
